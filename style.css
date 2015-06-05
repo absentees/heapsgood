@@ -1,0 +1,23 @@
+body, html, .block {
+  height: 100%;
+}
+
+.container{
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
+.container:before{
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em;
+}
+
+.container .video{
+  display: inline-block;
+   vertical-align: middle;
+}
